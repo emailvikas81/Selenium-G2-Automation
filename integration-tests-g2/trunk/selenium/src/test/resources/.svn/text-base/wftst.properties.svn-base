@@ -1,0 +1,30 @@
+#Environments
+g2.environment.url = https://g2wftst.vertafore.com/authenticate/index.jsp?customerId=
+g2.producer.portal.url = https://g2wftst.vertafore.com/ProducerPortal/loginAction.do?action=init
+g2.root.url = https://g2wftst.vertafore.com
+
+#Smoke Test
+smoketest.accountID = 1250
+smoketest.user = testuser
+
+smoketest.producer.portal.user = eyork@vertafore.com
+
+#Logins
+accountID.1250.testuser.password = Vertafore4$
+accountID.1250.testuser.name = test user
+
+eyork@vertafore.com.password = Sircon1!
+eyork@vertafore.com.name = Eric York
+
+#Modules
+module.0 = /rpts/serviceRouter.do?action=processEncoding&encodedParam=KlUXVKy5yeM%3DsU10ehELnIxefUTcGetBQyWvknV94oWR39m6nBeOaTYIXGRUQlskQYz2aaCUPM6jxPOYuWAlxMEi%0ADGQWFzZvRlWVFI7Eoyvdo636mBarjCRlZkJaCGDL36mtyyaTCRK2ET033FpWVcxdKaVrEeG%2Bg5vn%0AA%2FpinTrKQLpVrk1pnrs%3D
+module.1 = /FormEngine/serviceRouter.do?action=processEncoding&encodedParam=KlUXVKy5yeM%3DTGg84e8IH4Rg%2F90OcQb%2F0pPU6C38q3r7eO%2B6QiNzYWqxfn9SOTohywzPm8XF1IHWrcXcEi2oY3W8%0A25Dr6y20bwA5s10kFfuNJR6mmeFi2ryLWC3YoswIl5R4eAN5w1tO5LrfjdkTCM%2BpHpbwvFTMfjUr%0AY4Y6v5bIJRod1hUtMN2hdTq%2BRCDKkQ%3D%3D
+module.2 = /FormEngine/serviceRouter.do?action=processEncoding&encodedParam=KlUXVKy5yeM%3DTGg84e8IH4Rg%2F90OcQb%2F0pPU6C38q3r7eO%2B6QiNzYWqxfn9SOTohywzPm8XF1IHWrcXcEi2oY3VZ%0Aybj%2FqSIcg9Ubyruz6c1Ajnp0pzwA2omeKsu7ywSwrg%3D%3D
+
+#Application Servers
+appserver1 = dccpwlag2wv01.kaplancs.com
+appserver2 = dccpwlag2wv02.kaplancs.com
+
+#Bamboo
+bamboo.productBuildKey = G2-WFTST
+

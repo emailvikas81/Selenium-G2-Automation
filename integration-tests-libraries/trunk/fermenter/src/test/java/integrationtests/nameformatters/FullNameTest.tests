@@ -1,0 +1,30 @@
+Story: HB-9999
+Scenario: Full Name
+Fixture: integrationtests.nameformatters.FullNameTestFixture
+
+Description:
+Given I have a first name of <firstName>
+And I have a last name of <lastName>
+When I ask for a full formatted name
+Then I should get <fullName>
+
+Tests:
+firstName|lastName|fullName
+bob|jones|jones, bob
+bob||bob
+|jones|Mr. jones
+harry|smith|smith, harry
+
+Scenario: Last Name Cleaning
+Fixture: integrationtests.nameformatters.LastNameCleaningTestFixture
+
+Description:
+Given I have a last name of <lastName>
+When I ask for a clean name 
+Then I should get <cleanLastName>
+
+Tests:
+lastName|cleanLastName
+smith|smith
+smith's|smiths
+smith jr|smith

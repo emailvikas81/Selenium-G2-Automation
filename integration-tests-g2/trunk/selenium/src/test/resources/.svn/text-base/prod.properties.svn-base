@@ -1,0 +1,23 @@
+#Environments
+cx.environment.url = https://www.sircon.com
+
+#Smoke Test
+smoketest.accountID = 9990
+smoketest.user = testuser
+
+#Logins
+accountID.9990.testuser.password = Sircon1!
+accountID.9990.testuser.name = Test User
+
+#Application Servers
+appserver1 = 192.168.4.132/ComplianceExpress
+appserver2 = 192.168.4.133/ComplianceExpress
+appserver3 = 192.168.4.134/ComplianceExpress
+appserver4 = 192.168.4.135/ComplianceExpress
+appserver5 = 192.168.4.136/ComplianceExpress
+appserver6 = 192.168.4.137/ComplianceExpress
+appserver7 = 192.168.4.138/ComplianceExpress
+
+#Bamboo
+bamboo.productBuildKey = CX-PROD
+

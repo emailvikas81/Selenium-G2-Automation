@@ -1,0 +1,4 @@
+20:20:40,404 DEBUG root:18 - Hello this is an debug message
+20:20:41,246  INFO root:19 - Hello this is an info message
+20:20:42,026 DEBUG devpinoyLogger:22 - Hello this is an debug message
+20:20:42,619  INFO devpinoyLogger:23 - Hello this is an info message

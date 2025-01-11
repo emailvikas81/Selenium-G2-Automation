@@ -1,0 +1,25 @@
+Story: HB-1234, HB-1566
+Scenario: Sum
+Fixture: integrationtests.mathstuff.SumTestFixture
+
+Description:
+Given I have a <first>
+When I add <second>
+Then I should get <sum>.
+
+Tests:
+sum|first|second
+3|1|2
+8|3|5
+
+Scenario: Sum Failure
+Fixture: integrationtests.mathstuff.SumFailureTestFixture
+
+Description:
+Given I have a <first>
+When I add <second>
+Then I should get <sum>.
+
+Tests:
+sum|first|second
+10|5|3
